@@ -1,0 +1,29 @@
+
+=== _补充材料包\8F_25N_candidate_open_cost_envelope.csv ===
+candidate_open_cost_per_center_yuan_day | best_bitmask_conditional | opened_centers_conditional | number_of_opened_centers | conditional_total_cost_yuan_day | note
+0 | 15 | C1;C2;C3;C4 | 4 | 8725.08130864 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+50 | 15 | C1;C2;C3;C4 | 4 | 8925.08130864 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+100 | 14 | C2;C3;C4 | 3 | 9095.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+125 | 14 | C2;C3;C4 | 3 | 9170.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+150 | 14 | C2;C3;C4 | 3 | 9245.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+200 | 14 | C2;C3;C4 | 3 | 9395.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+225 | 14 | C2;C3;C4 | 3 | 9470.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+250 | 14 | C2;C3;C4 | 3 | 9545.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+275 | 14 | C2;C3;C4 | 3 | 9620.71302064 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+280 | 0 |  | 0 | 9628.417014640001 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+300 | 0 |  | 0 | 9628.417014640001 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+500 | 0 |  | 0 | 9628.417014640001 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+1000 | 0 |  | 0 | 9628.417014640001 | 固定同一最佳GA排列并对每种中心组合执行有向2-opt；条件敏感性，不是全局最优阈值。
+... total rows 14
+
+=== _补充材料包\8F_25N_high_budget_robustness.csv ===
+seed | GA_cost | final_cost | distance | fuel_routes | nev_routes | opened | evaluations | 2opt_moves
+20261023 | 10223.772624199999 | 9661.08607234 | 3058.1588179999994 | 8 | 25 |  | 1551 | 278
+20262032 | 10241.504184419999 | 9640.158619200001 | 3034.678325 | 8 | 25 |  | 1545 | 280
+20263041 | 10221.74160136 | 9641.39131274 | 3019.738609 | 8 | 25 |  | 1561 | 281
+... total rows 4
+
+=== _补充材料包\8F_25N_open_cost_200_summary.csv ===
+fleet_scenario | candidate_open_cost_yuan_day | opened_centers | total_cost_yuan_day | candidate_open_cost_total_yuan_day | vehicle_fixed_cost_yuan_day | distance_cost_yuan_day | total_distance_km | route_count | fuel_routes | nev_routes | all_568_served_once
+8F_25N | 200 | C2;C3;C4 | 9410.1951863 | 600.0 | 7710.0 | 1100.1951863 | 1944.8692059999998 | 32 | 7 | 25 | True
+... total rows 2

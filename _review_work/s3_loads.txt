@@ -1,0 +1,7 @@
+dict_keys(['scenario', 'fleet_scenario', 'seed', 'route_id', 'store_id', 'center_id', 'vehicle_mode', 'vehicle_type', 'visit_order'])
+('20261023', 'D1') 0.0
+('20261023', 'D2') 0.0
+('20262032', 'D1') 0.0
+('20262032', 'D2') 0.0
+('20263041', 'D1') 0.0
+('20263041', 'D2') 0.0

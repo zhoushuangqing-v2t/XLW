@@ -1,0 +1,17 @@
+dict_keys(['fleet_scenario', 'seed', 'bitmask', 'opened_centers', 'feasible', 'route_operating_cost_yuan_day', 'candidate_open_cost_yuan_day', 'total_cost_yuan_day', 'total_distance_km'])
+{'bitmask': '0', 'opened_centers': '', 'candidate_open_cost_yuan_day': '0.0', 'total_cost_yuan_day': '9628.417014640001', 'total_distance_km': '2997.0919859999995'}
+{'bitmask': '1', 'opened_centers': 'C1', 'candidate_open_cost_yuan_day': '1000.0', 'total_cost_yuan_day': '10553.76976412', 'total_distance_km': '2710.864873'}
+{'bitmask': '2', 'opened_centers': 'C2', 'candidate_open_cost_yuan_day': '1000.0', 'total_cost_yuan_day': '10512.475904419998', 'total_distance_km': '2573.218674'}
+{'bitmask': '3', 'opened_centers': 'C1;C2', 'candidate_open_cost_yuan_day': '2000.0', 'total_cost_yuan_day': '11340.012394039999', 'total_distance_km': '2263.9059850000003'}
+{'bitmask': '4', 'opened_centers': 'C3', 'candidate_open_cost_yuan_day': '1000.0', 'total_cost_yuan_day': '10531.28698772', 'total_distance_km': '2635.922285'}
+{'bitmask': '5', 'opened_centers': 'C1;C3', 'candidate_open_cost_yuan_day': '', 'total_cost_yuan_day': '', 'total_distance_km': ''}
+{'bitmask': '6', 'opened_centers': 'C2;C3', 'candidate_open_cost_yuan_day': '2000.0', 'total_cost_yuan_day': '11212.018569779999', 'total_distance_km': '2050.03787'}
+{'bitmask': '7', 'opened_centers': 'C1;C2;C3', 'candidate_open_cost_yuan_day': '3000.0', 'total_cost_yuan_day': '12137.6231445', 'total_distance_km': '1991.916444'}
+{'bitmask': '8', 'opened_centers': 'C4', 'candidate_open_cost_yuan_day': '1000.0', 'total_cost_yuan_day': '10500.484918339998', 'total_distance_km': '2519.7932910000004'}
+{'bitmask': '9', 'opened_centers': 'C1;C4', 'candidate_open_cost_yuan_day': '2000.0', 'total_cost_yuan_day': '11324.693935759999', 'total_distance_km': '2222.834793'}
+{'bitmask': '10', 'opened_centers': 'C2;C4', 'candidate_open_cost_yuan_day': '2000.0', 'total_cost_yuan_day': '11289.47725106', 'total_distance_km': '2105.445844'}
+{'bitmask': '11', 'opened_centers': 'C1;C2;C4', 'candidate_open_cost_yuan_day': '3000.0', 'total_cost_yuan_day': '12209.958935779998', 'total_distance_km': '2030.2481180000002'}
+{'bitmask': '12', 'opened_centers': 'C3;C4', 'candidate_open_cost_yuan_day': '2000.0', 'total_cost_yuan_day': '11341.227794659999', 'total_distance_km': '2277.947656'}
+{'bitmask': '13', 'opened_centers': 'C1;C3;C4', 'candidate_open_cost_yuan_day': '3000.0', 'total_cost_yuan_day': '12094.61584226', 'total_distance_km': '2009.577255'}
+{'bitmask': '14', 'opened_centers': 'C2;C3;C4', 'candidate_open_cost_yuan_day': '3000.0', 'total_cost_yuan_day': '11795.71302064', 'total_distance_km': '1893.724662'}
+{'bitmask': '15', 'opened_centers': 'C1;C2;C3;C4', 'candidate_open_cost_yuan_day': '4000.0', 'total_cost_yuan_day': '12725.08130864', 'total_distance_km': '1838.5436369999998'}

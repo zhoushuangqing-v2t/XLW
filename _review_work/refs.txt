@@ -1,0 +1,16 @@
+[232] 参考文献
+[233] [1] 武汉市公安局交通管理局关于进一步优化载货汽车通行管理规定的通告（武公交规〔2023〕64号）
+[234] [2] 孙东泉,华光,杨勇. 我国货运车辆限行政策对物流配送的影响[J].中国物流与采购,2014,(12):70-71. DOI:10.16079/j.cnki.issn1671-6663.2014.12.005.
+[235] [3] 张玲瑞,杨扬,谭慧芳,喻庆芳. 城市货运车辆限行政策对城市配送的影响分析及建议——以昆明市为例[J].中国物流与采购,2015,(24):110-111.
+[236] [4] 申芳宇. 关于物流末端配送网点选址-路径研究综述[J].中国储运,2025,(02):169-170. DOI:10.16301/j.cnki.cn12-1204/f.2025.02.016.
+[237] [5] Michael Schneider,Michael Drexl. A survey of the standard location-routing problem[J].Annals of Operations Research,2017,259(1-2): 389-414. DOI:10.1007/s10479-017-2509-0.
+[238] [6] Çağrı Koç,Tolga Bektaş,Ola Jabali,Gilbert Laporte. The fleet size and mix location-routing problem with time windows: Formulations and a heuristic algorithm[J].European Journal of Operational Research,2016,248(1): 33-51. DOI:10.1016/j.ejor.2015.06.082.
+[239] [7] 周青青. 考虑电动物流车的城市多配送中心选址与路径优化研究[D].华北电力大学(北京),2024.
+[240] [8] 张圣忠,李继东,徐赛娜. 城市配送车辆限行政策评价的多代理模型与仿真[J].公路交通科技,2018,35(06):87-94. DOI:10.3969/j.issn.1002-0268.2018.06.013.
+[241] [9] 葛显龙,徐玖平,王伟鑫. 交通限行条件下基于车辆协作的城市物流换乘联运问题研究[J].中国管理科学,2017,25(10):130-139. DOI:10.16381/j.cnki.issn1003-207x.2017.10.014.
+[242] [10] 胡大伟,刘成清,胡卉,高扬,蔡榕. 基于低碳视角的两阶段开放式选址路径问题——燃油车与电动车对比[J].系统工程理论与实践,2020,40(12):3230-3242. DOI:10.12011/SETP2019-0533.
+[243] [11] Hongzhi Wang,Haojie Ran,Shuhua Zhang. Location-routing optimization problem of country-township-village three-level green logistics network considering fuel-electric mixed fleets under carbon emission regulation[J].Computers & Industrial Engineering,2024,194: 110343. DOI:10.1016/j.cie.2024.110343.
+[244] [12] 万玉春. 低排放区政策影响下城市物流配送中心选址及路径优化研究[D].西南交通大学,2024.
+[245] [13] 工业和信息化部. 纯电动厢式运输车（SH5127XXYZHEVWZ3）企业申报车型公示[EB/OL].[2026-10-23]. https://www.miit.gov.cn/datainfo/dljdclscqyjcpgg/xcpgs390ssew/art/2024/art_421250b50c624f30a1bf56cb76a60a6a.html.
+[246] [14] Wang Z. Technical Progress of Vehicles[A]//Annual Report on the Big Data of New Energy Vehicle in China (2022). Singapore: Springer, 2024:49-83. DOI:10.1007/978-981-99-6411-6_3.
+[247] [15] 湖北省商务厅. 湖北省2026年10月12日—2026年10月18日重要生产资料价格周报[EB/OL]. (2026-10-21)[2026-10-23]. https://swt.hubei.gov.cn/sjkf/qszysczlsc/202610/t20261021_6037036.shtml.

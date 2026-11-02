@@ -1,0 +1,6 @@
+﻿scenario,fleet_scenario,seed,stores_served,unique_stores,all_568_served_once,fuel_routes,nev_routes,fuel_fleet_limit,nev_fleet_limit,fleet_ok,center_loads,center_capacity_ok,all_route_edges_finite,all_route_distance_ok,all_route_load_ok,max_fuel_route_km,max_nev_route_km,max_fuel_load_t,max_nev_load_t
+S1,8F_25N,BASE,568,568,True,8,25,8,25,True,"{""D2"": 99.97000000000003, ""D1"": 44.477}",True,True,True,True,143.254379,216.314231,4.9879999999999995,4.497999999999999
+S2,8F_25N,BASE,568,568,True,8,25,8,25,True,"{""D2"": 99.97000000000003, ""D1"": 44.477}",True,True,True,True,211.562313,217.13263700000002,4.9879999999999995,4.497999999999999
+S3,8F_25N,20261023,568,568,True,8,25,8,25,True,"{""D2"": 99.996, ""D1"": 44.451}",True,True,True,True,168.170029,164.29686999999998,4.997000000000001,4.4990000000000006
+S3,8F_25N,20262032,568,568,True,8,25,8,25,True,"{""D2"": 99.98300000000002, ""D1"": 44.464}",True,True,True,True,168.170029,163.85159799999997,5.0,4.498
+S3,8F_25N,20263041,568,568,True,8,25,8,25,True,"{""D2"": 99.943, ""D1"": 44.504000000000005}",True,True,True,True,171.37824500000005,189.53250799999998,4.992,4.499

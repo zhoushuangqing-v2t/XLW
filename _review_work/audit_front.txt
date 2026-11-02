@@ -1,0 +1,27 @@
+P0: 货运限行政策下城市商超配送路径优化与配送中心启用阈值研究——以武汉市某连锁商超为例
+
+P1: 摘要：针对货运限行条件下城市商超配送的道路可达性、混合车队配置与配送中心布局问题，以武汉市某连锁商超568家门店、2个现有配送中心和4个理论候选中心为算例，将区域、车型、时段及桥隧差异化限行规则转化为情景化有向可达性矩阵，构建考虑有限混合车队与候选中心启用决策的选址—路径模型，并设计“固定基准配对+重新优化”的三情景比较框架。结果表明：同一固定基准方案在日间限行矩阵下成本增加337.01元/日（3.37%）；日间限行下重新优化使成本较限行基准降低约691.2元/日（6.69%），但其中遗传算法仅贡献88.03元/日（0.85%），有向2-opt贡献603.18元/日（相当于限行基准成本的5.84%），路径层局部搜索是成本改善的主要来源；优化方案较无限行基准低354.20元/日（3.54%）。候选中心日启用成本为1,000元时未启用新增中心；固定排列条件下的持平阈值约为277.57元/中心·日，200元/日独立重算的持平阈值约为272.74元/中心·日，且该解使用7辆燃油车、25辆新能源车，较8F+25N主算例少280元/日固定成本。研究还表明，现行矩阵仅近似编码二环线及可识别桥隧，第三条三个严管片区和第四条其余八个分片区尚未逐路段编码；燃油货车可达性以及中型纯电动货车在严管片区的可达性均可能被高估。本文结论适用于上述算例与矩阵假设，不构成对企业实际运营或政策效果的因果推断。
+
+P2: 关键词：货运限行；选址—路径问题；混合车队；纯电动货车；有向可达性矩阵；遗传算法；配送中心启用阈值
+
+P3: 中图分类号：F252.1；U491.1　　文献标识码：A
+
+P4: Delivery Routing and Distribution Center Activation Thresholds for an Urban Supermarket Chain under Freight Restriction Policies: A Case Study of Wuhan
+
+P5: Abstract: Freight restriction policies reshape road accessibility, fleet composition and distribution-center (DC) deployment in urban delivery networks. Taking a Wuhan supermarket chain with 568 stores, two existing DCs and four candidate DCs as a case, this paper converts area-, vehicle-, time- and bridge/tunnel-specific restrictions into scenario-based directed accessibility matrices, and formulates a location-routing model with a finite mixed fleet and binary DC activation decisions. A three-scenario design is used: an unrestricted fixed benchmark (S1), a daytime-restricted fixed benchmark using the same store assignment, vehicle types and visit sequence (S2), and a daytime-restricted re-optimization (S3) solved by a genetic algorithm (GA) followed by directed 2-opt. The same benchmark plan costs 337.01 CNY/day (3.37%) more under daytime restrictions. Re-optimization reduces cost by about 691.2 CNY/day (6.69%) relative to S2 and by 354.20 CNY/day (3.54%) relative to S1. Decomposition shows that the GA contributes only 88.03 CNY/day (0.85%), whereas directed 2-opt contributes 603.18 CNY/day (5.84% of the S2 cost), accounting for 87.3% of the S3-S2 gap; the 6.69% gain should therefore not be attributed to DC activation or to joint location-routing decisions as a whole. At an activation cost of 1,000 CNY/DC/day, no candidate DC is opened. The conditional break-even cost is about 277.57 CNY/DC/day under a fixed permutation and 272.74 CNY/DC/day in an independent rerun; at 200 CNY/DC/day, three candidate DCs are opened, but the solution uses 7 fuel and 25 electric routes and saves 280 CNY/day in vehicle fixed cost. The matrix only partially encodes the policy: the Second Ring Road and identifiable bridges/tunnels are approximated, while the three all-day strict zones and the remaining eight sub-areas of Article 4 are not encoded segment by segment. Fuel-vehicle accessibility, and medium electric-vehicle accessibility in the three strict zones, may therefore be overstated. The results are case-specific estimates under the stated matrix and parameter assumptions, not causal policy effects or global optima.
+
+P6: Keywords: freight restriction policy; location-routing problem; mixed fleet; electric vehicle; directed accessibility matrix; genetic algorithm; distribution center activation threshold
+
+P7: 1 引言
+
+P8: 随着连锁零售业的发展，商超门店在城市不同区域广泛分布，门店数量多、配送频次高等特点对城市配送组织提出了更高要求。为缓解道路拥堵、改善城市交通环境，各地逐步实施分区域、分车型和分时段的货运车辆通行管理。以武汉市为例，现行货运通行政策不仅对部分中心城区设置分时段货车通行限制，还对桥梁、隧道、高架道路等特殊路段实行差异化管理，同时对符合条件的纯电动货车给予一定通行便利[1]。已有研究表明，货运限行可能造成车辆绕行、配送时效下降和物流成本增加，不同限行方式对城市配送运行的影响也存在差异[2-3]。在此背景下，不同车型所面对的可行道路网络发生变化，企业原有的配送中心布局、车辆配置及配送路径可能受到影响。因此，如何在货运限行条件下协调配送中心布局、车型配置与车辆路径安排，成为连锁商超城市配送优化中值得关注的问题。
+
+P9: 选址-路径问题（Location-Routing Problem，LRP）通过联合考虑设施选址和车辆路径决策，实现配送网络战略层与运营层决策的协调优化。申芳宇[4]对物流末端配送网点选址—路径问题进行了综述，指出配送网点布局与配送路径规划对于降低配送成本、提高配送效率具有重要作用。Schneider和Drexl[5]进一步对标准LRP进行了系统梳理，将其界定为同时考虑设施选址、客户服务和车辆路径的联合优化问题。随着配送场景和约束条件日益复杂，LRP研究逐渐向异构车队、时间窗、多车型及新能源车辆等方向扩展。Koç等[6]将异构车队和时间窗引入LRP，在配送中心选址的同时确定车辆规模、车型结构及配送路径；周青青[7]则进一步研究了电动物流车参与条件下的城市多配送中心选址与路径优化问题。
+
+KW P2: 关键词：货运限行；选址—路径问题；混合车队；纯电动货车；有向可达性矩阵；遗传算法；配送中心启用阈值
+作者简介: []
+基金项目: []
+通讯作者: [230]
+利益冲突: []
+贡献声明: []
+收稿日期: []

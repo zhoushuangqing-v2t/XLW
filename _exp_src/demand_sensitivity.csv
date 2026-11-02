@@ -1,0 +1,6 @@
+﻿demand_factor,total_demand_t,fleet_load_utilization_pct,S1_feasible,S2_feasible,S1_cost,S1_dist,S1_fuel_routes,S1_nev_routes,S2_cost,S2_dist,S2_fuel_routes,S2_nev_routes,S2_vs_S1_pct,S3_all_seeds_feasible,S3_mean_cost,S3_sd,S3_best,S3_worst,S3_mean_dist,S3_fuel_routes,S3_nev_routes,S3_opened_centers,S3_vs_S2_pct,note
+0.9,130.002,85.25,True,True,8815.93,3697.54,5.0,25.0,8961.74,3884.36,5.0,25.0,1.65,True,8319.02,2.87,8316.18,8321.92,2696.63,5;5;5,25;25;25,无,7.17,
+0.95,137.225,89.98,True,True,9263.14,3773.1,6.0,25.0,9505.45,4034.54,6.0,25.0,2.62,True,8815.51,26.17,8789.08,8841.42,2844.15,6;6;6,25;25;25,无,7.26,
+1.0,144.447,94.72,True,True,9996.04,3843.54,8.0,25.0,10333.05,4176.27,8.0,25.0,3.37,True,9641.84,12.83,9628.42,9653.98,3026.21,8;8;8,25;25;25,无,6.69,
+1.05,151.669,99.46,False,False,,,,,,,,,,False,,,,,,,,,,S1/S2 baseline infeasible
+1.1,158.892,104.19,False,False,,,,,,,,,,False,,,,,,,,,,S1/S2 baseline infeasible

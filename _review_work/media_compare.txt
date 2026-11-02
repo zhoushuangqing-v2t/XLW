@@ -1,0 +1,28 @@
+11-1.docx parts 33 media 13 media_bytes 7894090
+   word/media/ 0
+   word/media/image1.png 166430
+   word/media/image10.png 194770
+   word/media/image11.png 225170
+   word/media/image12.png 295885
+   word/media/image2.png 1275182
+   word/media/image3.png 1310223
+   word/media/image4.png 1424594
+   word/media/image5.png 1291862
+   word/media/image6.png 1091612
+   word/media/image7.png 204450
+   word/media/image8.png 153530
+   word/media/image9.png 260382
+11-1_ÐÞ¸Ä¸å_tmp.docx parts 27 media 13 media_bytes 8055497
+   word/media/image5.png 1291862
+   word/media/image4.png 1424594
+   word/media/image3.png 1310223
+   word/media/image2.png 1275182
+   word/media/image1.png 166430
+   word/media/image12.png 295885
+   word/media/image11.png 225170
+   word/media/image10.png 194770
+   word/media/image9.png 260382
+   word/media/image8.png 153530
+   word/media/image7.png 204450
+   word/media/image6.png 1091612
+   word/media/image13.png 161407

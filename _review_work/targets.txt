@@ -1,0 +1,234 @@
+
+===== P0 style='Normal' align=CENTER (1) =====
+TEXT: 货运限行政策下城市商超配送路径优化与配送中心选址可行性研究——以武汉市某连锁商超为例
+RUNS: 1
+  r0: bold=True italic=None size=203200 name=None text='货运限行政策下城市商超配送路径优化与配送中心选址可行性研究——以武汉市某连锁商超为例'
+
+===== P1 style='Normal' align=None =====
+TEXT: 摘要：针对货运限行条件下城市配送网络中道路可达性、车辆配置与配送中心布局相互影响的问题，以武汉市某连锁商超为研究对象，构建包含568家门店、2个现有配送中心和4个理论候选中心的配送优化算例。基于OpenStreetMap道路网络将区域、车型及桥隧差异化限行规则转化为情景化有向可达性矩阵，并建立考虑有限混合车队（8辆燃油货车与25辆纯电动货车）与候选中心启用决策的配送优化模型；通过让前两种情景共享同一套固定基准路线、仅切换道路矩阵的配对设计，分离限行对既定方案的直接影响与重新优化的改善效果；设置无限行固定基准、日间限行固定基准与日间限行联合优化三种情景，采用遗传算法与有向2-opt局部搜索求解。结果表明：日间限行使同一基准配送方案成本上升3.37%，而联合优化（主要为门店分配与车辆路径的重新组织）可较日间限行方案降低6.69%；在候选中心日启用成本为1000元时，模型未启用新增中心，说明靠路径优化即可吸收限行影响，选址的经济性仅在设施启用成本降至约278元/中心·日以下时才显现。研究可为货运限行条件下城市商超配送网络调整提供算例参考。
+RUNS: 1
+  r0: bold=True italic=None size=133350 name='宋体' text='摘要：针对货运限行条件下城市配送网络中道路可达性、车辆配置与配送中心布局相互影响的问题，以武汉市某连锁商超为研究对象，构建包含568家门店、2个现有配送中心和4个理论候选中心的配送优化算例。基于OpenStreetMap道路网络将区域、车型及桥隧差异化限行规则转化为情景化有向可达性矩阵，并建立考虑有限混合车队（8辆燃油货车与25辆纯电动货车）与候选中心启用决策的配送优化模型；通过让前两种情景共享同一套固定基准路线、仅切换道路矩阵的配对设计，分离限行对既定方案的直接影响与重新优化的改善效果；设置无限行固定基准、日间限行固定基准与日间限行联合优化三种情景，采用遗传算法与有向2-opt局部搜索求解。结果表明：日间限行使同一基准配送方案成本上升3.37%，而联合优化（主要为门店分配与车辆路径的重新组织）可较日间限行方案降低6.69%；在候选中心日启用成本为1000元时，模型未启用新增中心，说明靠路径优化即可吸收限行影响，选址的经济性仅在设施启用成本降至约278元/中心·日以下时才显现。研究可为货运限行条件下城市商超配送网络调整提供算例参考。'
+
+===== P2 style='Normal' align=None =====
+TEXT: 关键词：货运限行；选址—路径问题；混合车队；纯电动货车；有向道路网络；遗传算法；可达性矩阵
+RUNS: 1
+  r0: bold=True italic=None size=133350 name='宋体' text='关键词：货运限行；选址—路径问题；混合车队；纯电动货车；有向道路网络；遗传算法；可达性矩阵'
+
+===== P9 style='Normal' align=JUSTIFY (3) =====
+TEXT: 与已有研究相比，本文的边际贡献体现在三个方面。第一，在建模层面，将城市货运通行管理中同时存在的区域、车型、时段以及桥梁、隧道等特殊路段差异化规则，统一转化为车型—情景对应的有向道路可达性矩阵并作为硬约束进入选址—路径模型，较之仅以低排放区、碳排放或进入惩罚等单一政策情景刻画的做法（如万玉春[12]、Wang等[11]），更贴近实际货运通行管理；第二，在评价设计层面，通过让S1与S2共享同一套固定基准路径、仅切换道路矩阵的配对设计，把限行对既定配送组织的直接影响从网络重新优化的改善效果中分离出来，从而避免将二者混为一谈；第三，在应用层面，基于武汉市真实门店坐标与OSM路网给出568门店规模算例，并对车队结构、候选中心启用成本开展敏感性分析，为限行条件下既有配送中心是否需增设节点提供阈值型判据。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='与已有研究相比，本文的边际贡献体现在三个方面。第一，在建模层面，将城市货运通行管理中同时存在的区域、车型、时段以及桥梁、隧道等特殊路段差异化规则，统一转化为车型—情景对应的有向道路可达性矩阵并作为硬约束进入选址—路径模型，较之仅以低排放区、碳排放或进入惩罚等单一政策情景刻画的做法（如万玉春[12]、Wang等[11]），更贴近实际货运通行管理；第二，在评价设计层面，通过让S1与S2共享同一套固定基准路径、仅切换道路矩阵的配对设计，把限行对既定配送组织的直接影响从网络重新优化的改善效果中分离出来，从而避免将二者混为一谈；第三，在应用层面，基于武汉市真实门店坐标与OSM路网给出568门店规模算例，并对车队结构、候选中心启用成本开展敏感性分析，为限行条件下既有配送中心是否需增设节点提供阈值型判据。'
+
+===== P10 style='Normal' align=JUSTIFY (3) =====
+TEXT: 围绕上述研究目标，本文重点考察三个问题：第一，在现有配送中心、门店分配、车型配置及门店访问顺序保持不变时，日间货运限行对既定配送方案的道路距离和配送成本产生何种影响；第二，在相同限行条件下，允许模型自主决定候选配送中心启用、门店分配、车型选择及车辆访问顺序，能否降低配送系统总成本；第三，车队结构及候选配送中心启用成本变化将如何影响联合优化结果。鉴于企业未提供历史车辆清单和配送线路，本文将固定基准方案作为统一的算例比较基准，不将其表述为企业实际运营方案；同时，区域限行及特殊路段禁行规则通过情景化道路矩阵近似表达，相关结果仅用于分析本文算例条件下的优化表现。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='围绕上述研究目标，本文重点考察三个问题：第一，在现有配送中心、门店分配、车型配置及门店访问顺序保持不变时，日间货运限行对既定配送方案的道路距离和配送成本产生何种影响；第二，在相同限行条件下，允许模型自主决定候选配送中心启用、门店分配、车型选择及车辆访问顺序，能否降低配送系统总成本；第三，车队结构及候选配送中心启用成本变化将如何影响联合优化结果。鉴于企业未提供历史车辆清单和配送线路，本文将固定基准方案作为统一的算例比较基准，不将其表述为企业实际运营方案；同时，区域限行及特殊路段禁行规则通过情景化道路矩阵近似表达，相关结果仅用于分析本文算例条件下的优化表现。'
+
+===== P139 style='Normal' align=JUSTIFY (3) =====
+TEXT: 在K=4条件下，568家门店被划分为4个空间簇，并形成4个理论候选配送中心。由于部分门店坐标按本轮审计规则更新，候选中心位置和簇内门店数量相应重新计算；各候选中心空间位置及门店聚类结果如图9所示，具体结果见表2。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='在K=4条件下，568家门店被划分为4个空间簇，并形成4个理论候选配送中心。由于部分门店坐标按本轮审计规则更新，候选中心位置和簇内门店数量相应重新计算；各候选中心空间位置及门店聚类结果如图9所示，具体结果见表2。'
+
+===== P155 style='Normal' align=JUSTIFY (3) =====
+TEXT: 为构造配送中心与门店之间的距离和行驶时间矩阵，本文使用用户提供的OpenStreetMap/Geofabrik湖北省道路Shapefile，筛选研究区域内的可能机动车道路，并按道路单行属性构建有向路网。568家门店、2个现有配送中心及4个候选中心共形成574个模型节点。道路几何在UTM 50N投影下计算长度，再通过节点接入连接将模型节点关联到道路图。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='为构造配送中心与门店之间的距离和行驶时间矩阵，本文使用用户提供的OpenStreetMap/Geofabrik湖北省道路Shapefile，筛选研究区域内的可能机动车道路，并按道路单行属性构建有向路网。568家门店、2个现有配送中心及4个候选中心共形成574个模型节点。道路几何在UTM 50N投影下计算长度，再通过节点接入连接将模型节点关联到道路图。'
+
+===== P160 style='Normal' align=JUSTIFY (3) =====
+TEXT: 坐标审计后，所有574个节点均生成道路接入点，但接入质量并不完全一致：426个节点的自动接入质量标记为“高”、67个为“中”、62个为“低”、19个标记为“需人工复核”；此外，程序对5个节点使用了单独标记的拓扑修复连接，其中4条修复连接长度超过100 m。304家门店仍使用原始坐标且其坐标参考系未独立确认。上述处理提高了路网计算的可运行性，但不能替代人工地图核验；因此道路矩阵与优化结果应按有审计标记的算例结果解释。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='坐标审计后，所有574个节点均生成道路接入点，但接入质量并不完全一致：426个节点的自动接入质量标记为“高”、67个为“中”、62个为“低”、19个标记为“需人工复核”；此外，程序对5个节点使用了单独标记的拓扑修复连接，其中4条修复连接长度超过100 m。304家门店仍使用原始坐标且其坐标参考系未独立确认。上述处理提高了路网计算的可运行性，但不能替代人工地图核验；因此道路矩阵与优化结果应按有审计标记的算例结果解释。'
+
+===== P165 style='Normal' align=None =====
+TEXT: 载重量按模型中的有效载重上限处理，不等同于车辆总质量。经核，此前引用的跃进牌纯电动厢式运输车SH5127XXYZHEVWZ3车长约7.05 m、总质量约11.995 t，超出武公交规〔2023〕64号"车长6 m、总质量8 t以内"的中型新能源厢式载货汽车豁免门槛，故该车型不符合本研究的通行豁免条件，不再作为豁免依据[13]。考虑本文采用代表性车队而非单一车型，燃油货车和纯电动货车的载重上限分别假设为5.0 t和4.5 t，单次固定使用成本分别假设为280元和230元，均不含能源费用；这些参数为模型假设，不指向某一具体公告车型。例如满足豁免门槛（总质量7995 kg、车长5990 mm）的江铃牌JX5084XXYTGB2BEV纯电动厢式运输车额定载质量约4.12 t，略低于本文假设的4.5 t，本文结果应在该假设下理解。纯电动货车单条路径有效里程上限设为300 km，用于近似反映载重和路况对可用续航的影响，并非具体车型的官方标称续航。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='载重量按模型中的有效载重上限处理，不等同于车辆总质量。经核，此前引用的跃进牌纯电动厢式运输车SH5127XXYZHEVWZ3车长约7.05 m、总质量约11.995 t，超出武公交规〔2023〕64号"车长6 m、总质量8 t以内"的中型新能源厢式载货汽车豁免门槛，故该车型不符合本研究的通行豁免条件，不再作为豁免依据[13]。考虑本文采用代表性车队而非单一车型，燃油货车和纯电动货车的载重上限分别假设为5.0 t和4.5 t，单次固定使用成本分别假设为280元和230元，均不含能源费用；这些参数为模型假设，不指向某一具体公告车型。例如满足豁免门槛（总质量7995 kg、车长5990 mm）的江铃牌JX5084XXYTGB2BEV纯电动厢式运输车额定载质量约4.12 t，略低于本文假设的4.5 t，本文结果应在该假设下理解。纯电动货车单条路径有效里程上限设为300 km，用于近似反映载重和路况对可用续航的影响，并非具体车型的官方标称续航。'
+
+===== P173 style='Normal' align=JUSTIFY (3) =====
+TEXT: 货运限行参数主要依据武汉市公安局交通管理局《关于进一步优化载货汽车通行管理规定的通告》（武公交规〔2023〕64号）[1]确定。该通告对特定桥梁、隧道、三环线内其他桥梁/高架、二环线及以内区域以及特定核心区域设置了不同的车型和时段规定。由于当前数据中没有官方限行边界的GIS矢量、逐路段通行属性及车辆登记类别，本文利用OSM道路名称和几何构造二环/三环近似范围，并对可识别的桥梁、隧道设置简化的通行矩阵。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='货运限行参数主要依据武汉市公安局交通管理局《关于进一步优化载货汽车通行管理规定的通告》（武公交规〔2023〕64号）[1]确定。该通告对特定桥梁、隧道、三环线内其他桥梁/高架、二环线及以内区域以及特定核心区域设置了不同的车型和时段规定。由于当前数据中没有官方限行边界的GIS矢量、逐路段通行属性及车辆登记类别，本文利用OSM道路名称和几何构造二环/三环近似范围，并对可识别的桥梁、隧道设置简化的通行矩阵。'
+
+===== P174 style='Normal' align=JUSTIFY (3) =====
+TEXT: 此外，本通告第三条三个全日禁行严管片区及第四条若干7:00—22:00分片区限行已列示于表7，但当前道路可达性矩阵尚未逐路段编码这些片区，故燃油货车在核心城区的可达性可能被高估。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='此外，本通告第三条三个全日禁行严管片区及第四条若干7:00—22:00分片区限行已列示于表7，但当前道路可达性矩阵尚未逐路段编码这些片区，故燃油货车在核心城区的可达性可能被高估。'
+
+===== P186 style='Normal' align=CENTER (1) =====
+TEXT: 表7 货运限行情景设置
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='表7 货运限行情景设置'
+
+===== P187 style='Normal' align=None =====
+TEXT: 注：上表按武公交规〔2023〕64号第一至四条列示主要限行规则；但当前道路可达性矩阵仅编码二环线及桥隧规则，尚未逐路段编码上述三个全日禁行严管片区及第四条7:00—22:00分片区限行，故燃油货车在核心城区的可达性可能被高估，道路矩阵结果应理解为算例近似。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='注：上表按武公交规〔2023〕64号第一至四条列示主要限行规则；但当前道路可达性矩阵仅编码二环线及桥隧规则，尚未逐路段编码上述三个全日禁行严管片区及第四条7:00—22:00分片区限行，故燃油货车在核心城区的可达性可能被高估，道路矩阵结果应理解为算例近似。'
+
+===== P189 style='Normal' align=JUSTIFY (3) =====
+TEXT: 为区分货运限行对既定配送组织的直接影响与限行条件下选址—路径联合优化的改善效果，本文设置三种对比情景。S1为无限行基准情景，固定使用两个现有配送中心，并采用统一构造的基准配送方案；S2为日间限行基准情景，配送中心、门店分配、车型配置及门店访问顺序均与S1保持一致，仅将道路距离矩阵替换为车型对应的日间限行矩阵；S3为日间限行条件下的选址—路径联合优化情景，两个现有配送中心保持运营，4个理论候选配送中心由模型自主决定是否启用，同时优化门店分配、车型选择及车辆访问顺序。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='为区分货运限行对既定配送组织的直接影响与限行条件下选址—路径联合优化的改善效果，本文设置三种对比情景。S1为无限行基准情景，固定使用两个现有配送中心，并采用统一构造的基准配送方案；S2为日间限行基准情景，配送中心、门店分配、车型配置及门店访问顺序均与S1保持一致，仅将道路距离矩阵替换为车型对应的日间限行矩阵；S3为日间限行条件下的选址—路径联合优化情景，两个现有配送中心保持运营，4个理论候选配送中心由模型自主决定是否启用，同时优化门店分配、车型选择及车辆访问顺序。'
+
+===== P190 style='Normal' align=None =====
+TEXT: 由于企业未提供历史配送线路和车辆调度记录，S1与S2的基准方案不代表企业实际运营线路。为构造可重复的比较基准，首先根据门店坐标相对于门店空间几何中心的极角和半径形成初始排序，再在日间限行道路矩阵下按照车型可达性优先级、车辆载重及配送中心剩余服务能力进行贪婪插入，生成一套满足车辆数量、道路可达性和新能源车续航约束的固定配送方案。该构造过程仅用于形成共同基准，不执行遗传算法迭代及路径层2-opt。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='由于企业未提供历史配送线路和车辆调度记录，S1与S2的基准方案不代表企业实际运营线路。为构造可重复的比较基准，首先根据门店坐标相对于门店空间几何中心的极角和半径形成初始排序，再在日间限行道路矩阵下按照车型可达性优先级、车辆载重及配送中心剩余服务能力进行贪婪插入，生成一套满足车辆数量、道路可达性和新能源车续航约束的固定配送方案。该构造过程仅用于形成共同基准，不执行遗传算法迭代及路径层2-opt。'
+
+===== P191 style='Normal' align=None =====
+TEXT: 基准方案生成后，固定配送中心归属、门店分配、车型配置及门店访问顺序。S1将该方案代入无限行道路矩阵，S2则代入燃油货车日间限行矩阵和符合通行例外条件的纯电动货车矩阵，分别重新计算固定访问顺序中相邻节点之间的有向最短路距离。因此，S2与S1的成本差额反映同一基准配送组织在两种道路通行矩阵下的直接差异。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='基准方案生成后，固定配送中心归属、门店分配、车型配置及门店访问顺序。S1将该方案代入无限行道路矩阵，S2则代入燃油货车日间限行矩阵和符合通行例外条件的纯电动货车矩阵，分别重新计算固定访问顺序中相邻节点之间的有向最短路距离。因此，S2与S1的成本差额反映同一基准配送组织在两种道路通行矩阵下的直接差异。'
+
+===== P192 style='Normal' align=None =====
+TEXT: S3在日间限行道路矩阵下求解完整选址—路径联合优化模型。两个现有配送中心始终保留，候选配送中心C1—C4均可自主启用或不启用；模型同时考虑门店分配、车型选择、车辆数量、车辆载重、中心服务能力及新能源车单路径里程约束。主算例采用8辆燃油货车和25辆纯电动货车，候选配送中心日启用成本设为1,000元。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='S3在日间限行道路矩阵下求解完整选址—路径联合优化模型。两个现有配送中心始终保留，候选配送中心C1—C4均可自主启用或不启用；模型同时考虑门店分配、车型选择、车辆数量、车辆载重、中心服务能力及新能源车单路径里程约束。主算例采用8辆燃油货车和25辆纯电动货车，候选配送中心日启用成本设为1,000元。'
+
+===== P194 style='Normal' align=None =====
+TEXT: 三种情景的比较逻辑如图10所示。S1与S2共享同一套固定基准配送组织，仅切换道路通行矩阵，用于识别限行对既定方案的直接影响；S3则在日间限行条件下重新决定候选中心启用、门店分配、车型选择及访问顺序，用于评价选址—路径联合优化的改善效果。需要说明，S1并非无限行条件下的最优配送方案，而是将共同基准方案代入无限行矩阵后的配对基期，仅用于隔离道路矩阵变化带来的直接成本差异。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='三种情景的比较逻辑如图10所示。S1与S2共享同一套固定基准配送组织，仅切换道路通行矩阵，用于识别限行对既定方案的直接影响；S3则在日间限行条件下重新决定候选中心启用、门店分配、车型选择及访问顺序，用于评价选址—路径联合优化的改善效果。需要说明，S1并非无限行条件下的最优配送方案，而是将共同基准方案代入无限行矩阵后的配对基期，仅用于隔离道路矩阵变化带来的直接成本差异。'
+
+===== P196 style='Normal' align=None =====
+TEXT: S3遗传算法采用种群规模20、最大迭代代数30，设置3组随机种子（20261023、20262032和20263041）进行重复求解。染色体由4位候选中心启用编码和568家门店排列组成；选择操作采用规模为3的锦标赛选择，精英保留数量为2。门店排列采用顺序交叉（OX），并以0.75的概率执行交换、片段逆序或插入变异；候选中心位串采用均匀交叉，并以0.12的概率翻转一个位。初始种群中包含候选中心全部不启用和全部启用的基准个体。遗传算法每10代对当前最优个体进行两次排列邻域尝试；达到30代或连续22代未改善当前最优成本时终止。遗传算法结束后，对输出的可行路线方案执行有向2-opt局部搜索。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='S3遗传算法采用种群规模20、最大迭代代数30，设置3组随机种子（20261023、20262032和20263041）进行重复求解。染色体由4位候选中心启用编码和568家门店排列组成；选择操作采用规模为3的锦标赛选择，精英保留数量为2。门店排列采用顺序交叉（OX），并以0.75的概率执行交换、片段逆序或插入变异；候选中心位串采用均匀交叉，并以0.12的概率翻转一个位。初始种群中包含候选中心全部不启用和全部启用的基准个体。遗传算法每10代对当前最优个体进行两次排列邻域尝试；达到30代或连续22代未改善当前最优成本时终止。遗传算法结束后，对输出的可行路线方案执行有向2-opt局部搜索。'
+
+===== P198 style='Normal' align=None =====
+TEXT: 从局部搜索效果看，三组随机种子的遗传算法输出在有向2-opt前平均成本为10,245.02元/日，执行路径层有向2-opt后平均降至9,641.84元/日，平均减少603.18元/日，降幅为5.89%。三组结果的降幅分别约为5.98%、5.86%和5.82%。该结果表明有向2-opt能够进一步改善遗传算法构造的可行路线，但其作用属于局部搜索改进，不构成全局最优性证明。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='从局部搜索效果看，三组随机种子的遗传算法输出在有向2-opt前平均成本为10,245.02元/日，执行路径层有向2-opt后平均降至9,641.84元/日，平均减少603.18元/日，降幅为5.89%。三组结果的降幅分别约为5.98%、5.86%和5.82%。该结果表明有向2-opt能够进一步改善遗传算法构造的可行路线，但其作用属于局部搜索改进，不构成全局最优性证明。'
+
+===== P202 style='Normal' align=None =====
+TEXT: 表9汇总了主算例三种情景的配送成本及路径结果。S1和S2采用同一套固定基准方案，S3为三组随机种子经遗传算法和路径层有向2-opt处理后的平均结果。三种情景均完成568家门店的唯一服务，主算例均使用8条燃油车路径和25条新能源车路径；在候选中心日启用成本为1,000元时，S3未启用新增配送中心。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='表9汇总了主算例三种情景的配送成本及路径结果。S1和S2采用同一套固定基准方案，S3为三组随机种子经遗传算法和路径层有向2-opt处理后的平均结果。三种情景均完成568家门店的唯一服务，主算例均使用8条燃油车路径和25条新能源车路径；在候选中心日启用成本为1,000元时，S3未启用新增配送中心。'
+
+===== P203 style='Normal' align=None =====
+TEXT: 注：日总成本=候选中心启用成本+车辆固定使用成本+里程能源成本。S3为3组随机种子运行均值，日总成本样本标准差为12.83元/日；S1、S2为同一固定基准方案的配对评价结果。行驶时间按总里程/25 km/h估算，不代表车辆并行运行下的总完工时长。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='注：日总成本=候选中心启用成本+车辆固定使用成本+里程能源成本。S3为3组随机种子运行均值，日总成本样本标准差为12.83元/日；S1、S2为同一固定基准方案的配对评价结果。行驶时间按总里程/25 km/h估算，不代表车辆并行运行下的总完工时长。'
+
+===== P204 style='Normal' align=None =====
+TEXT: 在主算例8F+25N车队配置下，S1的日总成本为9,996.04元，总配送里程为3,843.54 km；S2的日总成本为10,333.05元，总里程为4,176.27 km。由于两种情景采用完全相同的配送中心归属、门店分配、车型配置和访问顺序，S2相较S1增加337.01元/日，增幅为3.37%；总里程增加332.73 km，增幅为8.66%。该差额反映本文构造的固定基准方案在日间限行道路矩阵下的成本变化，而非企业历史线路的实测政策影响。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='在主算例8F+25N车队配置下，S1的日总成本为9,996.04元，总配送里程为3,843.54 km；S2的日总成本为10,333.05元，总里程为4,176.27 km。由于两种情景采用完全相同的配送中心归属、门店分配、车型配置和访问顺序，S2相较S1增加337.01元/日，增幅为3.37%；总里程增加332.73 km，增幅为8.66%。该差额反映本文构造的固定基准方案在日间限行道路矩阵下的成本变化，而非企业历史线路的实测政策影响。'
+
+===== P205 style='Normal' align=None =====
+TEXT: S3在日间限行条件下重新优化配送中心启用、门店分配、车型选择及车辆路径。三组随机种子经有向2-opt处理后的日总成本分别为9,643.12元、9,653.98元和9,628.42元，平均为9,641.84元/日，样本标准差为12.83元/日；平均总里程为3,026.21 km。与S2相比，S3平均成本降低691.22元/日，降幅为6.69%，平均里程减少27.54%。三个随机种子均形成8条燃油车路径和25条新能源车路径，且均未启用候选中心。由于主算例下两类车型路径数量与基准方案相同，车辆固定使用成本均为7,990元/日，成本改善主要来自配送路径组织调整后里程能源成本的下降。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='S3在日间限行条件下重新优化配送中心启用、门店分配、车型选择及车辆路径。三组随机种子经有向2-opt处理后的日总成本分别为9,643.12元、9,653.98元和9,628.42元，平均为9,641.84元/日，样本标准差为12.83元/日；平均总里程为3,026.21 km。与S2相比，S3平均成本降低691.22元/日，降幅为6.69%，平均里程减少27.54%。三个随机种子均形成8条燃油车路径和25条新能源车路径，且均未启用候选中心。由于主算例下两类车型路径数量与基准方案相同，车辆固定使用成本均为7,990元/日，成本改善主要来自配送路径组织调整后里程能源成本的下降。'
+
+===== P206 style='Normal' align=None =====
+TEXT: 在候选配送中心启用成本敏感性分析中，选取主算例三组随机种子中最终成本最低的方案（随机种子20263041），固定其遗传算法门店排列，对C1—C4的16种启用组合逐一重新解码并执行有向2-opt。结果显示，在候选中心日启用成本为1,000元时，不启用新增中心的条件成本最低，为9,628.42元/日；单独启用任一候选中心或同时启用多个候选中心均未能抵消设施启用成本；例如同时启用全部4个候选中心可将运输成本由9,628.42元降至8,725.08元（减少约903元），但需额外支付4,000元启用成本，净成本反而更高，可见候选中心的取舍是经济性权衡而非选址不可行。进一步改变单个候选中心日启用成本，条件敏感性结果显示，当启用成本为200元/中心·日时，C2、C3和C4组合的条件总成本为9,395.71元/日；该组合与不启用方案的条件持平点约为277.57元/中心·日。该阈值基于固定的遗传算法排列及相应解码、局部搜索结果，仅表示条件敏感性，不代表每个成本水平下重新优化得到的全局阈值。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='在候选配送中心启用成本敏感性分析中，选取主算例三组随机种子中最终成本最低的方案（随机种子20263041），固定其遗传算法门店排列，对C1—C4的16种启用组合逐一重新解码并执行有向2-opt。结果显示，在候选中心日启用成本为1,000元时，不启用新增中心的条件成本最低，为9,628.42元/日；单独启用任一候选中心或同时启用多个候选中心均未能抵消设施启用成本；例如同时启用全部4个候选中心可将运输成本由9,628.42元降至8,725.08元（减少约903元），但需额外支付4,000元启用成本，净成本反而更高，可见候选中心的取舍是经济性权衡而非选址不可行。进一步改变单个候选中心日启用成本，条件敏感性结果显示，当启用成本为200元/中心·日时，C2、C3和C4组合的条件总成本为9,395.71元/日；该组合与不启用方案的条件持平点约为277.57元/中心·日。该阈值基于固定的遗传算法排列及相应解码、局部搜索结果，仅表示条件敏感性，不代表每个成本水平下重新优化得到的全局阈值。'
+
+===== P207 style='Normal' align=None =====
+TEXT: 为进一步检验低设施成本下候选中心启用的可能性，在候选中心日启用成本为200元的条件下，以随机种子20263041、种群规模20和最大迭代30代重新运行算法，得到启用C2、C3和C4的可行方案，日总成本为9,410.20元，总里程为1,944.87 km，共形成32条路径，其中燃油车7条、新能源车25条；全部568家门店均得到唯一服务，车辆数量、配送中心容量、道路可达性、车辆载重及新能源车里程约束均通过核验。该独立求解结果与固定排列条件敏感性结果略有差异，反映启发式算法在不同搜索过程下的解差异。200元/日同样为敏感性假设，并非企业实际设施成本。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='为进一步检验低设施成本下候选中心启用的可能性，在候选中心日启用成本为200元的条件下，以随机种子20263041、种群规模20和最大迭代30代重新运行算法，得到启用C2、C3和C4的可行方案，日总成本为9,410.20元，总里程为1,944.87 km，共形成32条路径，其中燃油车7条、新能源车25条；全部568家门店均得到唯一服务，车辆数量、配送中心容量、道路可达性、车辆载重及新能源车里程约束均通过核验。该独立求解结果与固定排列条件敏感性结果略有差异，反映启发式算法在不同搜索过程下的解差异。200元/日同样为敏感性假设，并非企业实际设施成本。'
+
+===== P209 style='Normal' align=None =====
+TEXT: 注：三组车队数量均为算例假设，总车辆数均为33辆；S3成本为3组随机种子运行均值。12辆燃油车+21辆新能源车方案的S3平均结果实际使用11条燃油车路径和21条新能源车路径，其余两组S3均使用各自假设的全部车辆。上述结果用于比较车队结构变化对模型成本的影响，不代表企业真实车队配置或实际运营成本。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='注：三组车队数量均为算例假设，总车辆数均为33辆；S3成本为3组随机种子运行均值。12辆燃油车+21辆新能源车方案的S3平均结果实际使用11条燃油车路径和21条新能源车路径，其余两组S3均使用各自假设的全部车辆。上述结果用于比较车队结构变化对模型成本的影响，不代表企业真实车队配置或实际运营成本。'
+
+===== P210 style='Normal' align=None =====
+TEXT: 图12给出了固定最佳遗传算法排列条件下，候选配送中心启用成本变化对条件最优方案的影响。随着单个候选中心日启用成本提高，条件最优方案由启用C1—C4逐步转为启用C2、C3和C4，并最终转为不启用候选中心；条件持平点约为277.57元/中心·日。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='图12给出了固定最佳遗传算法排列条件下，候选配送中心启用成本变化对条件最优方案的影响。随着单个候选中心日启用成本提高，条件最优方案由启用C1—C4逐步转为启用C2、C3和C4，并最终转为不启用候选中心；条件持平点约为277.57元/中心·日。'
+
+===== P213 style='Normal' align=JUSTIFY (3) =====
+TEXT: 为展示联合优化方案的空间服务结构，选取三组随机种子中成本最低的可行解（随机种子20263041）进行可视化。该解中，D1由燃油车服务140家门店、由新能源车服务31家门店，D2由新能源车服务397家门店，共覆盖568家门店；主算例未启用C1—C4。图13展示门店服务中心归属与车型配置，不绘制实际道路轨迹，因此不能将其解释为导航路径图。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='为展示联合优化方案的空间服务结构，选取三组随机种子中成本最低的可行解（随机种子20263041）进行可视化。该解中，D1由燃油车服务140家门店、由新能源车服务31家门店，D2由新能源车服务397家门店，共覆盖568家门店；主算例未启用C1—C4。图13展示门店服务中心归属与车型配置，不绘制实际道路轨迹，因此不能将其解释为导航路径图。'
+
+===== P217 style='Normal' align=JUSTIFY (3) =====
+TEXT: 为说明不同车型道路矩阵的可达性差异，表11给出全部574个节点有序OD对中的有限距离比例。该比例按包含对角零距离对在内的329,476个有序OD对计算。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='为说明不同车型道路矩阵的可达性差异，表11给出全部574个节点有序OD对中的有限距离比例。该比例按包含对角零距离对在内的329,476个有序OD对计算。'
+
+===== P218 style='Normal' align=None =====
+TEXT: 注：有限OD比例按全部574个节点有序OD对（含对角零距离对）统计，不代表门店覆盖率。燃油货车日间限行矩阵中不可达OD对比例较高，而符合条件纯电动货车矩阵在本算例中保持全部节点对连通；这反映的是当前近似道路通行矩阵的连通性特征，不应解释为所有实际道路均对纯电动货车开放。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='注：有限OD比例按全部574个节点有序OD对（含对角零距离对）统计，不代表门店覆盖率。燃油货车日间限行矩阵中不可达OD对比例较高，而符合条件纯电动货车矩阵在本算例中保持全部节点对连通；这反映的是当前近似道路通行矩阵的连通性特征，不应解释为所有实际道路均对纯电动货车开放。'
+
+===== P220 style='Normal' align=None =====
+TEXT: 第一，坐标精度仍是重要限制。当前模型有304家门店保留原始坐标，原始坐标参考系未独立确认；另有18家采用低精度救援坐标、2家采用临时救援坐标。道路接入审计中19个节点标记为“需人工复核”，另有62个节点为低质量接入，5条拓扑修复连接中4条长度超过100 m。故本轮路网矩阵虽可用于计算，但尚不能表述为所有节点均已完成人工地理核验。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='第一，坐标精度仍是重要限制。当前模型有304家门店保留原始坐标，原始坐标参考系未独立确认；另有18家采用低精度救援坐标、2家采用临时救援坐标。道路接入审计中19个节点标记为“需人工复核”，另有62个节点为低质量接入，5条拓扑修复连接中4条长度超过100 m。故本轮路网矩阵虽可用于计算，但尚不能表述为所有节点均已完成人工地理核验。'
+
+===== P221 style='Normal' align=None =====
+TEXT: 第二，政策GIS边界属于近似构造。二环线和三环线范围由OSM道路几何及凸包近似识别，桥梁、隧道和特殊区域规则按可识别字段进行简化；道路数据不一定完整记录全部限高、转向、施工、车型豁免和时段限制。政策矩阵用于本文情景分析，不等同于官方逐路段法律可达性数据。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='第二，政策GIS边界属于近似构造。二环线和三环线范围由OSM道路几何及凸包近似识别，桥梁、隧道和特殊区域规则按可识别字段进行简化；道路数据不一定完整记录全部限高、转向、施工、车型豁免和时段限制。政策矩阵用于本文情景分析，不等同于官方逐路段法律可达性数据。'
+
+===== P222 style='Normal' align=None =====
+TEXT: 第三，需求、车队及成本参数具有假设性。门店日需求总量144.447 t为均匀分布模拟值，并非企业订单记录；主算例8辆燃油车和25辆新能源车，以及5+28、12+21两组敏感性车队规模均为模型假设，并非企业实际车辆清单。车辆载重、固定使用成本、单位距离能源成本、新能源车300 km路径里程上限、配送中心能力和候选中心1,000元/日启用成本均采用代表性参数。由于缺少门店时间窗、服务时长、真实车辆运行记录和候选场地费用，本文不评价实测到达时间或企业实际成本。
+RUNS: 1
+  r0: bold=None italic=None size=None name=None text='第三，需求、车队及成本参数具有假设性。门店日需求总量144.447 t为均匀分布模拟值，并非企业订单记录；主算例8辆燃油车和25辆新能源车，以及5+28、12+21两组敏感性车队规模均为模型假设，并非企业实际车辆清单。车辆载重、固定使用成本、单位距离能源成本、新能源车300 km路径里程上限、配送中心能力和候选中心1,000元/日启用成本均采用代表性参数。由于缺少门店时间窗、服务时长、真实车辆运行记录和候选场地费用，本文不评价实测到达时间或企业实际成本。'
+
+===== P223 style='Normal' align=None =====
+TEXT: 第四，固定基准方案与优化结果均具有算例属性。S1和S2采用依据门店坐标排序及容量、可达性约束贪婪构造的共同基准路线，不是企业历史配送线路；两者成本差额仅反映该固定方案在不同道路矩阵下的模型变化。S3结果为有限随机种子下的遗传算法启发式可行解，路径层局部搜索仅实施有向2-opt，不能据此证明全局最优。主算例在1,000元/日启用成本下未启用候选中心，低成本情景下的中心启用结果也取决于假设参数。因而本文结果用于揭示模型参数和情景设定下的配送网络调整规律，不应直接解释为企业已实现的实际成本节约。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='第四，固定基准方案与优化结果均具有算例属性。S1和S2采用依据门店坐标排序及容量、可达性约束贪婪构造的共同基准路线，不是企业历史配送线路；两者成本差额仅反映该固定方案在不同道路矩阵下的模型变化。S3结果为有限随机种子下的遗传算法启发式可行解，路径层局部搜索仅实施有向2-opt，不能据此证明全局最优。主算例在1,000元/日启用成本下未启用候选中心，低成本情景下的中心启用结果也取决于假设参数。因而本文结果用于揭示模型参数和情景设定下的配送网络调整规律，不应直接解释为企业已实现的实际成本节约。'
+
+===== P224 style='Normal' align=None =====
+TEXT: 第五，燃油货车日间矩阵的门店级可达性较低，需明确披露。在燃油货车日间限行矩阵下，574个节点中仅21.41%的有序OD对存在有限距离；568家门店中，255家可由燃油货车从两个现有配送中心往返可达，其余313家仅能由纯电动货车服务，不存在仅燃油可达或两种车型均不可达的门店。这意味着本文8燃油+25纯电动的混合车队并非自由选择，燃油货车被硬性限制在255家门店范围内，S2与S3的成本结构与降幅显著受该碎片化影响。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='第五，燃油货车日间矩阵的门店级可达性较低，需明确披露。在燃油货车日间限行矩阵下，574个节点中仅21.41%的有序OD对存在有限距离；568家门店中，255家可由燃油货车从两个现有配送中心往返可达，其余313家仅能由纯电动货车服务，不存在仅燃油可达或两种车型均不可达的门店。这意味着本文8燃油+25纯电动的混合车队并非自由选择，燃油货车被硬性限制在255家门店范围内，S2与S3的成本结构与降幅显著受该碎片化影响。'
+
+===== P225 style='Normal' align=None =====
+TEXT: 第六，坐标系统混用的系统误差已做敏感性检验。304家门店保留原始坐标且其参考系未独立确认。若假设这304家坐标为GCJ-02并反算为WGS84，单店平均偏移约589 m；重新进行K-means聚类后，4个理论候选中心位置较基准移动约5.0—12.8 km，簇内门店数亦相应变化。这表明候选中心位置对坐标参考系假设较敏感；但主算例在1,000元/日启用成本下并不启用候选中心，故该偏移对本文主结果（不启用中心、6.69%降幅）无实质影响，主要影响未来低成本启用中心的场景。因未随坐标假设重建道路距离矩阵，该误差对配送成本的定量影响仍有待进一步检验。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='第六，坐标系统混用的系统误差已做敏感性检验。304家门店保留原始坐标且其参考系未独立确认。若假设这304家坐标为GCJ-02并反算为WGS84，单店平均偏移约589 m；重新进行K-means聚类后，4个理论候选中心位置较基准移动约5.0—12.8 km，簇内门店数亦相应变化。这表明候选中心位置对坐标参考系假设较敏感；但主算例在1,000元/日启用成本下并不启用候选中心，故该偏移对本文主结果（不启用中心、6.69%降幅）无实质影响，主要影响未来低成本启用中心的场景。因未随坐标假设重建道路距离矩阵，该误差对配送成本的定量影响仍有待进一步检验。'
+
+===== P226 style='Normal' align=None =====
+TEXT: 第七，需求水平敏感性。将门店需求整体缩放为0.90、0.95、1.00、1.05、1.10倍并重新求解。结果显示：0.90、0.95、1.00倍需求下模型均可行，S3较S2的成本降幅分别为7.17%、7.26%和6.69%（降幅总体在7%左右，受3个随机种子波动影响，不宜对三者间的细小差异作趋势性解读），且均未启用候选中心；1.05、1.10倍需求（需求总量151.669 t、158.892 t）逼近或超过本文假设车队的总载重能力152.5 t，模型判定为不可行。这说明在本文参数下，车队载重能力是需求增长时的关键约束，启用候选中心并不能缓解该约束；该不可行仅针对本文假设的8燃油+25纯电动车队，不构成对现实配送能力的判断。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='第七，需求水平敏感性。将门店需求整体缩放为0.90、0.95、1.00、1.05、1.10倍并重新求解。结果显示：0.90、0.95、1.00倍需求下模型均可行，S3较S2的成本降幅分别为7.17%、7.26%和6.69%（降幅总体在7%左右，受3个随机种子波动影响，不宜对三者间的细小差异作趋势性解读），且均未启用候选中心；1.05、1.10倍需求（需求总量151.669 t、158.892 t）逼近或超过本文假设车队的总载重能力152.5 t，模型判定为不可行。这说明在本文参数下，车队载重能力是需求增长时的关键约束，启用候选中心并不能缓解该约束；该不可行仅针对本文假设的8燃油+25纯电动车队，不构成对现实配送能力的判断。'
+
+===== P228 style='Normal' align=None =====
+TEXT: 本文以武汉市某连锁商超配送网络为研究对象，基于568家门店、2个现有配送中心和4个理论候选配送中心，构建由OSM道路网络生成的情景化有向距离矩阵，并建立考虑货运限行、有限规模混合车队及候选配送中心启用决策的选址—路径联合优化模型。门店日需求采用均匀分布模拟，总需求量为144.447 t；主算例假设配置8辆燃油货车和25辆纯电动货车。为区分限行政策的直接影响与配送网络优化效果，设置无限行固定基准、日间限行固定基准和日间限行联合优化三种情景，并采用遗传算法及路径层有向2-opt求解S3。本文的边际贡献在于：将区域、车型、时段及桥隧等差异化限行规则统一编码为有向道路可达性矩阵，并通过固定基准路线的配对评价分离限行对既定方案的直接影响与重新优化的改善效果。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='本文以武汉市某连锁商超配送网络为研究对象，基于568家门店、2个现有配送中心和4个理论候选配送中心，构建由OSM道路网络生成的情景化有向距离矩阵，并建立考虑货运限行、有限规模混合车队及候选配送中心启用决策的选址—路径联合优化模型。门店日需求采用均匀分布模拟，总需求量为144.447 t；主算例假设配置8辆燃油货车和25辆纯电动货车。为区分限行政策的直接影响与配送网络优化效果，设置无限行固定基准、日间限行固定基准和日间限行联合优化三种情景，并采用遗传算法及路径层有向2-opt求解S3。本文的边际贡献在于：将区域、车型、时段及桥隧等差异化限行规则统一编码为有向道路可达性矩阵，并通过固定基准路线的配对评价分离限行对既定方案的直接影响与重新优化的改善效果。'
+
+===== P229 style='Normal' align=None =====
+TEXT: 主算例结果表明，S1日总成本为9,996.04元、总里程为3,843.54 km；S2日总成本为10,333.05元、总里程为4,176.27 km。由于两种情景使用相同的固定基准配送方案，日间限行使模型成本增加337.01元/日，增幅为3.37%，总里程增加8.66%。S3经三组随机种子求解后的平均日总成本为9,641.84元，平均总里程为3,026.21 km，较S2平均成本降低6.69%。在候选中心日启用成本为1,000元时，模型未选择启用新增中心，说明在当前算例参数下，依靠现有中心条件下的门店分配与路径调整即可获得成本改善。这一成本改善主要来自门店分配与车辆路径的重新组织，而非新增配送中心；只有当候选中心启用成本降至约278元/中心·日以下时，启用候选中心才具备经济性。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='主算例结果表明，S1日总成本为9,996.04元、总里程为3,843.54 km；S2日总成本为10,333.05元、总里程为4,176.27 km。由于两种情景使用相同的固定基准配送方案，日间限行使模型成本增加337.01元/日，增幅为3.37%，总里程增加8.66%。S3经三组随机种子求解后的平均日总成本为9,641.84元，平均总里程为3,026.21 km，较S2平均成本降低6.69%。在候选中心日启用成本为1,000元时，模型未选择启用新增中心，说明在当前算例参数下，依靠现有中心条件下的门店分配与路径调整即可获得成本改善。这一成本改善主要来自门店分配与车辆路径的重新组织，而非新增配送中心；只有当候选中心启用成本降至约278元/中心·日以下时，启用候选中心才具备经济性。'
+
+===== P230 style='Normal' align=None =====
+TEXT: 车队结构敏感性分析显示，在5+28、8+25和12+21三种假设配置下，S3相较S2的平均成本降幅分别为6.42%、6.69%和10.09%；候选中心启用成本降低后，模型可能选择启用C2、C3和C4，表明设施扩张的经济性取决于运输成本节约与设施启用成本之间的权衡。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='车队结构敏感性分析显示，在5+28、8+25和12+21三种假设配置下，S3相较S2的平均成本降幅分别为6.42%、6.69%和10.09%；候选中心启用成本降低后，模型可能选择启用C2、C3和C4，表明设施扩张的经济性取决于运输成本节约与设施启用成本之间的权衡。'
+
+===== P231 style='Normal' align=None =====
+TEXT: 研究仍受门店坐标精度、政策边界近似、模拟需求及车辆参数缺少企业实测数据等因素制约，且启发式算法结果不构成全局最优性证明。后续研究应进一步核验门店坐标与官方限行边界，获取企业真实车队规模、车辆成本和候选场地费用，并通过扩大计算预算、算法对照及更多参数情景检验模型结果的稳健性。
+RUNS: 1
+  r0: bold=None italic=None size=133350 name='宋体' text='研究仍受门店坐标精度、政策边界近似、模拟需求及车辆参数缺少企业实测数据等因素制约，且启发式算法结果不构成全局最优性证明。后续研究应进一步核验门店坐标与官方限行边界，获取企业真实车队规模、车辆成本和候选场地费用，并通过扩大计算预算、算法对照及更多参数情景检验模型结果的稳健性。'
+
+===== TABLE STYLES =====
+TABLE 0: style='Table Grid' rows=7 cols=3
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 1: style='Table Grid' rows=2 cols=4
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 2: style='Table Grid' rows=2 cols=2
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 3: style='Table Grid' rows=8 cols=3
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 4: style='Table Grid' rows=3 cols=5
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 5: style='Table Grid' rows=2 cols=4
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 6: style='Table Grid' rows=8 cols=4
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 7: style='Table Grid' rows=4 cols=4
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 8: style='Table Grid' rows=4 cols=8
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 9: style='Table Grid' rows=4 cols=6
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2
+TABLE 10: style='Table Grid' rows=2 cols=4
+  tblPr: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2

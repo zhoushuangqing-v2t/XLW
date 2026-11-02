@@ -1,0 +1,47 @@
+{
+  "case": "Wuhan urban grocery chain LRP",
+  "store_count": 568,
+  "node_count": 574,
+  "total_daily_demand_t": 144.447,
+  "fleet_assumptions": {
+    "8F_25N": {
+      "F": 8,
+      "N": 25
+    }
+  },
+  "vehicle_parameters": {
+    "F": {
+      "label": "燃油货车",
+      "capacity_t": 5.0,
+      "fixed_yuan": 280.0,
+      "unit_yuan_km": 1.28,
+      "max_route_km": Infinity
+    },
+    "N": {
+      "label": "新能源货车",
+      "capacity_t": 4.5,
+      "fixed_yuan": 230.0,
+      "unit_yuan_km": 0.3,
+      "max_route_km": 300.0
+    }
+  },
+  "center_capacity_t": {
+    "existing_center": 100.0,
+    "candidate_center": 60.0
+  },
+  "candidate_open_cost_yuan_day": 1000.0,
+  "GA_population": 20,
+  "GA_generations": 30,
+  "random_seeds": [
+    20261023,
+    20262032,
+    20263041
+  ],
+  "S1_S2_method": "One common baseline route plan constructed by fixed polar-angle order and constrained-first greedy insertion under daytime policy feasibility; no GA iterations or 2-opt. Same center assignment, vehicle type, and visit sequence evaluated under unrestricted and restricted matrices.",
+  "S3_method": "GA with candidate-center bit chromosome and store permutation; S2 baseline permutation injected as an elite individual; directed 2-opt applied after GA; all 16 candidate-center bitsets conditionally decoded and each receives directed 2-opt before comparison.",
+  "fleet_constraint": "Each vehicle can perform at most one route per day; route count by vehicle type cannot exceed the assumed available fleet count.",
+  "policy_matrix_note": "The fuel_day and nev_eligible matrices are approximations based on the current road-network restriction processing, not authoritative legal GIS boundaries.",
+  "demand_note": "Daily store demands are simulated inputs totaling 144.447 t/day; not enterprise transaction records.",
+  "vehicle_data_note": "Fleet counts are explicit case-study assumptions, not observed enterprise fleet inventory.",
+  "global_optimality": "All S3 results are heuristic best-found feasible solutions, not proofs of global optimality."
+}

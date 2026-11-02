@@ -1,0 +1,5 @@
+﻿node_id,lon,lat,cluster_store_count,coordinate_selection_reason
+C1,114.22307937756746,30.627045595688795,122.0,K=4; random_state=42; n_init=20
+C2,114.26990320556212,30.570583249594357,231.0,K=4; random_state=42; n_init=20
+C3,114.36193550391154,30.620136580494993,127.0,K=4; random_state=42; n_init=20
+C4,114.37557196188627,30.500211878446912,88.0,K=4; random_state=42; n_init=20

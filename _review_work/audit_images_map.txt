@@ -1,0 +1,13 @@
+0: /word/media/image1.png size=166430 w=14.51 h=7.45
+1: /word/media/image2.png size=1275182 w=14.60 h=7.60
+2: /word/media/image3.png size=1310223 w=14.60 h=6.45
+3: /word/media/image4.png size=1424594 w=14.60 h=7.19
+4: /word/media/image5.png size=1291862 w=14.60 h=6.65
+5: /word/media/image6.png size=1091612 w=12.93 h=6.24
+6: /word/media/image7.png size=204450 w=10.69 h=8.26
+7: /word/media/image8.png size=153530 w=10.55 h=7.19
+8: /word/media/image9.png size=260382 w=10.32 h=7.98
+9: /word/media/image13.png size=161407 w=14.40 h=7.65
+10: /word/media/image10.png size=194770 w=12.71 h=7.48
+11: /word/media/image11.png size=225170 w=14.40 h=8.26
+12: /word/media/image12.png size=295885 w=14.22 h=9.91

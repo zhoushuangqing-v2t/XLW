@@ -1,0 +1,132 @@
+{
+  "package_name": "武汉LRP_8F25N三情景求解代码与完整结果_版本溯源包.zip",
+  "source_archive_sha256": "14a50ae5df1b6938da1da8d6015599d39e3211983e8021fd2af1dbae0949c5f2",
+  "core_script_sha256": "e6d20b4785ec3795e62c256ec18e809308b0f2a4c5453388bd523a7af3421fed",
+  "outer_archive_members": [
+    {
+      "path": "5F_28N_完整结果包.zip",
+      "bytes": 17149448
+    },
+    {
+      "path": "8F_25N_完整结果包.zip",
+      "bytes": 17150923
+    },
+    {
+      "path": "12F_21N_完整结果包.zip",
+      "bytes": 17153770
+    },
+    {
+      "path": "武汉LRP混合车队三情景_主算例及敏感性结果汇总.xlsx",
+      "bytes": 112736
+    },
+    {
+      "path": "8F_25N_high_budget_robustness.csv",
+      "bytes": 303
+    },
+    {
+      "path": "8F_25N_open_cost_200_summary.csv",
+      "bytes": 752
+    },
+    {
+      "path": "8F_25N_open_cost_200_routes.csv",
+      "bytes": 8969
+    },
+    {
+      "path": "8F_25N_open_cost_200_assignments.csv",
+      "bytes": 38047
+    },
+    {
+      "path": "8F_25N_candidate_open_cost_envelope.csv",
+      "bytes": 2065
+    },
+    {
+      "path": "结果口径与论文使用注意事项.txt",
+      "bytes": 4344
+    },
+    {
+      "path": "solve_lrp_mixed_fleet_three_scenarios.py",
+      "bytes": 44399
+    }
+  ],
+  "8F25N_inner_archive_members": [
+    "S3_optimized_assignments_all_seeds.csv",
+    "S3_optimized_routes_all_seeds.csv",
+    "README_运行与论文使用说明.txt",
+    "candidate_center_full_2opt_audit.csv",
+    "mixed_fleet_three_scenario_results.xlsx",
+    "vehicle_reachability_audit.csv",
+    "S1_S2_paired_baseline_assignments.csv",
+    "candidate_center_bitset_and_cost_sensitivity.csv",
+    "S3_multiseed_runs.csv",
+    "S1_S2_paired_baseline_routes.csv",
+    "run_all_mixed_fleet.bat",
+    "route_feasibility_checks.csv",
+    "S3_convergence_history.csv",
+    "requirements.txt",
+    "run_metadata.json",
+    "fleet_sensitivity_summary.csv",
+    "solve_lrp_mixed_fleet_three_scenarios.py",
+    "input/final_node_coordinates_574.csv",
+    "input/distance_nev_eligible_km.csv",
+    "input/store_demand_seed20261017.csv",
+    "input/store_cluster_assignments.csv",
+    "input/candidate_centers_recomputed.csv",
+    "input/distance_fuel_day_km.csv",
+    "input/distance_unrestricted_km.csv",
+    "__pycache__/solve_lrp_mixed_fleet_three_scenarios.cpython-313.pyc",
+    "input_snapshot/final_node_coordinates_574.csv",
+    "input_snapshot/distance_nev_eligible_km.csv",
+    "input_snapshot/store_demand_seed20261017.csv",
+    "input_snapshot/store_cluster_assignments.csv",
+    "input_snapshot/candidate_centers_recomputed.csv",
+    "input_snapshot/distance_fuel_day_km.csv",
+    "input_snapshot/distance_unrestricted_km.csv"
+  ],
+  "run_metadata": {
+    "case": "Wuhan urban grocery chain LRP",
+    "store_count": 568,
+    "node_count": 574,
+    "total_daily_demand_t": 144.447,
+    "fleet_assumptions": {
+      "8F_25N": {
+        "F": 8,
+        "N": 25
+      }
+    },
+    "vehicle_parameters": {
+      "F": {
+        "label": "燃油货车",
+        "capacity_t": 5.0,
+        "fixed_yuan": 280.0,
+        "unit_yuan_km": 1.28,
+        "max_route_km": Infinity
+      },
+      "N": {
+        "label": "新能源货车",
+        "capacity_t": 4.5,
+        "fixed_yuan": 230.0,
+        "unit_yuan_km": 0.3,
+        "max_route_km": 300.0
+      }
+    },
+    "center_capacity_t": {
+      "existing_center": 100.0,
+      "candidate_center": 60.0
+    },
+    "candidate_open_cost_yuan_day": 1000.0,
+    "GA_population": 20,
+    "GA_generations": 30,
+    "random_seeds": [
+      20261023,
+      20262032,
+      20263041
+    ],
+    "S1_S2_method": "One common baseline route plan constructed by fixed polar-angle order and constrained-first greedy insertion under daytime policy feasibility; no GA iterations or 2-opt. Same center assignment, vehicle type, and visit sequence evaluated under unrestricted and restricted matrices.",
+    "S3_method": "GA with candidate-center bit chromosome and store permutation; S2 baseline permutation injected as an elite individual; directed 2-opt applied after GA; all 16 candidate-center bitsets conditionally decoded and each receives directed 2-opt before comparison.",
+    "fleet_constraint": "Each vehicle can perform at most one route per day; route count by vehicle type cannot exceed the assumed available fleet count.",
+    "policy_matrix_note": "The fuel_day and nev_eligible matrices are approximations based on the current road-network restriction processing, not authoritative legal GIS boundaries.",
+    "demand_note": "Daily store demands are simulated inputs totaling 144.447 t/day; not enterprise transaction records.",
+    "vehicle_data_note": "Fleet counts are explicit case-study assumptions, not observed enterprise fleet inventory.",
+    "global_optimality": "All S3 results are heuristic best-found feasible solutions, not proofs of global optimality."
+  }
+}

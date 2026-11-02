@@ -1,0 +1,22 @@
+T0 rows=7 cols=3 grid_twips=[1410, 2758, 4110] sum_cm=14.60 widths=[2.49, 4.86, 7.25]
+   tblW=0 type=auto
+T1 rows=5 cols=4 grid_twips=[1814, 2381, 2381, 1814] sum_cm=14.80 widths=[3.2, 4.2, 4.2, 3.2]
+   tblW=0 type=auto
+T2 rows=9 cols=2 grid_twips=[4535, 3402] sum_cm=14.00 widths=[8.0, 6.0]
+   tblW=0 type=auto
+T3 rows=8 cols=3 grid_twips=[2759, 2759, 2759] sum_cm=14.60 widths=[4.87, 4.87, 4.87]
+   tblW=0 type=auto
+T4 rows=3 cols=5 grid_twips=[1439, 1439, 1770, 1814, 1814] sum_cm=14.60 widths=[2.54, 2.54, 3.12, 3.2, 3.2]
+   tblW=0 type=auto
+T5 rows=3 cols=4 grid_twips=[2835, 1701, 2381, 2154] sum_cm=16.00 widths=[5.0, 3.0, 4.2, 3.8]
+   tblW=0 type=auto
+T6 rows=10 cols=5 grid_twips=[1757, 1077, 1020, 1644, 3572] sum_cm=16.00 widths=[3.1, 1.9, 1.8, 2.9, 6.3]
+   tblW=0 type=auto
+T7 rows=4 cols=4 grid_twips=[1560, 1701, 1559, 3458] sum_cm=14.60 widths=[2.75, 3.0, 2.75, 6.1]
+   tblW=0 type=auto
+T8 rows=4 cols=8 grid_twips=[1033, 1034, 1033, 1034, 1034, 1034, 1033, 1033] sum_cm=14.58 widths=[1.82, 1.82, 1.82, 1.82, 1.82, 1.82, 1.82, 1.82]
+   tblW=0 type=auto
+T9 rows=4 cols=6 grid_twips=[1377, 1378, 1378, 1378, 1378, 1379] sum_cm=14.58 widths=[2.43, 2.43, 2.43, 2.43, 2.43, 2.43]
+   tblW=0 type=auto
+T10 rows=4 cols=4 grid_twips=[2835, 1814, 1814, 2041] sum_cm=15.00 widths=[5.0, 3.2, 3.2, 3.6]
+   tblW=0 type=auto

@@ -1,0 +1,4 @@
+﻿fleet_scenario,seed,fleet_fuel_available,fleet_nev_available,ga_best_cost_before_2opt_yuan_day,final_cost_after_2opt_yuan_day,total_distance_km,route_count,fuel_route_count,nev_route_count,opened_centers,candidate_open_cost_yuan_day,vehicle_fixed_cost_yuan_day,distance_cost_yuan_day,ga_unique_evaluations,directed_2opt_moves,best_bitmask,best_bitmask_after_16_combo_audit,best_decoder_cost_after_16_combo_audit_yuan_day,best_bitmask_after_16_combo_2opt_audit,best_cost_after_16_combo_2opt_audit_yuan_day
+5F_28N,20261023,5,28,9619.86324972,9069.26221238,2928.638665,33,5,28,,0.0,7840.0,1229.26221238,527,282,0,,,,
+5F_28N,20262032,5,28,9647.85824652,9073.9368038,2884.222704,33,5,28,,0.0,7840.0,1233.9368038,518,283,0,,,,
+5F_28N,20263041,5,28,9564.9881778,9069.02563882,2858.798705,33,5,28,,0.0,7840.0,1229.02563882,523,292,0,0.0,9564.9881778,0.0,9069.02563882
